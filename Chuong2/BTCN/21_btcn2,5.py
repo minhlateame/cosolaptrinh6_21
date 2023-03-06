@@ -1,0 +1,5 @@
+p=int(input('So tien ban dau: '))
+n=int(input('So thang: '))
+r=float(input('Lai suat/ thang: '))
+print('Voi so tien ban dau ',p,', sau ',n,' thang gui, lai suat ',r,'/ thang',sep=""  )
+print('Thi so tien duoc nhan cuoi ki la:',p*(1+r*n))
