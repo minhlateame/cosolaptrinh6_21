@@ -1,19 +1,18 @@
-a=float(input())
-b=float(input())
-c=float(input())
+a=int(input())
+b=int(input())
+c=int(input())
 s=((a*2)+(b*3)+c)/6
 if s<3:
     print('Kem')
-if 3<=s< 5:
+elif 3<=s< 5:
     print('Yeu')
-if 5<=s<6:
+elif 5<=s<6:
     print('Trung binh')
-if 6<=s<7:
+elif 6<=s<7:
     print('Trung binh kha')
-if 7<=a<8:
+elif 7<=a<8:
     print('Kha')
-if 8<=a<9:
+elif 8<=a<9:
     print('Gioi')
-if 9<=a<10:
-    print('Xuat sac')
-    
+elif 9<=a<10:
+    print('Xuat sac')   

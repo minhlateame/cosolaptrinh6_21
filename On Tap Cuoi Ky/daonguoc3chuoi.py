@@ -1,0 +1,26 @@
+a=list(input())
+b=list(input())
+c=list(input())
+a.reverse()
+b.reverse()
+c.reverse()
+k=''.join(a)
+h=''.join(b)
+g=''.join(c)
+print(k)
+print(h)
+print(g)
+# a=input()
+# b=input()
+# c=input()
+# a=list(a)S
+# for i in range(len(a)-1,-1,-1):
+#     print(a[i],end='')
+# print()
+# b=list(b)
+# for x in range(len(b)-1,-1,-1):
+#     print(b[x], end='')
+# print()
+# c=list(c)
+# for z in range(len(c)-1,-1,-1):
+#     print(c[z],end='')

@@ -1,0 +1,6 @@
+a=float(input('a='))
+b=float(input('b='))
+c=float(input('c='))
+d=float(input('d='))
+print('Tong=',round(a+b+c+d,1),sep="")
+print('Trung binh=',round((a+b+c+d)/4,1),sep="")
